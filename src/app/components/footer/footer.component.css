@@ -1,0 +1,5 @@
+footer {
+    background-color: var(--task-bg);
+    border: 1px solid var(--task-bg);
+    border-radius: 10px;
+}
