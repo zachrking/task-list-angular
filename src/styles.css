@@ -19,3 +19,27 @@ body {
 .title {
     text-align: center;
 }
+
+.task {
+    background-color: rgb(226, 226, 226);
+    border-radius: 5px;
+}
+
+.task-text {
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.task-date {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.btn-del {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-position {
+    width: 20.1%;
+}
