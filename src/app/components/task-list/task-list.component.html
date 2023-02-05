@@ -1,3 +1,4 @@
 <h2 class="title">{{ titleName }}</h2>
 <hr>
 <app-add-form></app-add-form>
+<app-task-item *ngFor="let task of tasks" [taskItem]="task"></app-task-item>
