@@ -14,7 +14,8 @@ A pretty simple project using Angular 15 and [JSON server](https://github.com/ty
 git clone git://github.com/vichan-devel/vichan.git 
 ```
 2. Run `npm install`
-3. 
+3. Run `npm run server` to run the JSON server
+
 ## License
 
 See [LICENSE.md](example.example)
