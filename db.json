@@ -1,7 +1,22 @@
 {
     "tasks": [
         {
-            
+            "id": 1,
+            "text": "Eat breakfast",
+            "day": "05/02/2022, 10:25",
+            "remind": true
+        },
+        {
+            "id": 2,
+            "text": "Play with my dog",
+            "day": "05/02/2022, 11:40",
+            "remind": false
+        },
+        {
+            "id": 3,
+            "text": "Go to school",
+            "day": "05/02/2022, 12:30",
+            "remind": false
         }
     ]
 }
