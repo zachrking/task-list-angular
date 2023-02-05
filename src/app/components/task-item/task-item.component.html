@@ -1,5 +1,11 @@
-<div class="task">
-    <h3>{{ taskItem.text }}</h3>
-    <p>{{ taskItem.day }} </p>
-    <p>{{ taskItem.remind }} </p>
+<div class="row task my-2 py-2">
+    <div class="col task-text">
+      {{ taskItem.text }}
+      <div class="task-date">
+        {{ taskItem.day }}
+      </div>
+    </div>
+    <div class="col-3 btn-position">
+        <app-button btnStyle="btn-danger btn-del" btnText="Del"></app-button>
+    </div>
 </div>
