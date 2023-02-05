@@ -43,3 +43,13 @@ body {
 .btn-position {
     width: 20.1%;
 }
+
+label {
+    font-weight: bold;
+}
+
+.remind {
+    border-left: 3px solid;
+    border-bottom: 3px solid;
+    border-color: #198754;
+}
