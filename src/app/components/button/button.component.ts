@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-button',
@@ -9,9 +9,10 @@ export class ButtonComponent {
   // Default name for button
   @Input() btnText: string = "Click";
   @Input() btnStyle: string = "";
+  @Output() btnClick: EventEmitter<any> = new EventEmitter();
 
   // Todo: emmit event
   onClick(): void {
-    console.log("Add item!");
+    this.btnClick.emit();
   }
 }
